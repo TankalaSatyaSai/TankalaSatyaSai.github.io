@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #333; /* Dark background to make white borders more visible */
+    color: #fff; /* White text for better contrast */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 2px solid #fff;  /* Border around the entire table */
+}
+
+th, td {
+    border: 2px solid #fff;  /* Borders around each cell */
+    padding: 16px; /* Increased padding for more spacing */
+    text-align: left;
+}
+
+th {
+    background-color: #555; /* Slightly lighter background for headers */
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #444;
+}
+
+tr:nth-child(odd) {
+    background-color: #555;
+}
+
+tr:hover {
+    background-color: #666;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}

@@ -1,0 +1,24 @@
+.skill .skills-p{
+    color:#000000;
+    font-size:15px;
+    font-weight:bold;
+}
+.skill .skills-h{
+    font-size:30px;
+    color:white;
+    font-weight:bold;
+}
+.skill .skills-mh{
+    text-align:center;
+    font-size:40px;
+    font-weight:bold;
+    font-family:"Times New Roman", Times, serif;
+    padding-bottom:0;
+}
+.skill .skills-img{
+    height:50px;
+    width:50px;
+    border-radius:50px;
+    margin:0;
+    padding:0;
+}
